@@ -36,6 +36,9 @@ app.post("/save-version", (req, res) => {
 // Get all versions
 app.get("/versions", (req, res) => {
     res.json(versions);
+
+
+    
 });
 
 app.listen(5000, () => {
